@@ -17,16 +17,14 @@ public class StudentConfig {
                     1L,
                     "maria@email.com",
                     "Maria",
-                    LocalDate.of(2000, Month.FEBRUARY, 19),
-                    20
+                    LocalDate.of(2000, Month.FEBRUARY, 19)
             );
 
             var peter = new Student(
                     2L,
                     "peter@email.com",
                     "Peter",
-                    LocalDate.of(1980, Month.FEBRUARY, 17),
-                    40
+                    LocalDate.of(1980, Month.FEBRUARY, 17)
             );
 
             repository.saveAll(List.of(maria, peter));
