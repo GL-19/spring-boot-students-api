@@ -15,15 +15,15 @@ public class StudentConfig {
         return args -> {
             var maria =  new Student(
                     1L,
-                    "maria@email.com",
                     "Maria",
+                    "maria@email.com",
                     LocalDate.of(2000, Month.FEBRUARY, 19)
             );
 
             var peter = new Student(
                     2L,
-                    "peter@email.com",
                     "Peter",
+                    "peter@email.com",
                     LocalDate.of(1980, Month.FEBRUARY, 17)
             );
 
